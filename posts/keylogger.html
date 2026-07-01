@@ -21,7 +21,7 @@
 <p>https://github.com/git-michaelkent/bash-keylogger/blob/main/logger.sh</p>
 
 # About:
-I created a self contained bash keylogger for a class assignment, which not only captures keyboard inputs, but also button presses from a trackpad/mouse. When I was first brainstorming this script I wanted it to completely "live off the land", which is why I chose to program in Bash for this assignment. A slight hiccup in this idea was reading the /dev/input/event files (which track the raw inputs of conected devices). Reading raw data from event files proved too difficult for the timeframe of this assignment. This prompted me to use evtest instead, which is unfortunately not installed by default on many distros. I partly resloved this issue by automatically installing evtest if not found. I then took the approach to track *all* event files, as the event file a device writes to is continually shifting for any given device. To help with clarity, logs indicate which event file they orginiate from.
+I created a self contained bash keylogger for a class assignment, which not only captures keyboard inputs, but also button presses from a trackpad/mouse. When I was first brainstorming this script I wanted it to completely "live off the land", which is why I chose to develop it in Bash. A slight hiccup in this idea was reading the /dev/input/event files (which track the raw inputs of connected devices). Reading raw data from event files proved too difficult for the timeframe of this assignment. This prompted me to use evtest instead, which is unfortunately not installed by default on many distros. I partly resolved this issue by automatically installing evtest if not found. I then took the approach to track all event files, as the event file a device writes to is continually shifting for any given device. To help with clarity, logs indicate which event file they originate from.
 
 # Assignment Instructions:
 > You will be writing your own keystroke logger.  You can use any programming language you choose.  The TAs and I have used Python.  Your requirements are:
@@ -64,7 +64,7 @@ Running the program, and typing `this is a TEST`, followed by a termination requ
 - Args for specific event files to listen to
 - Arg for specific file to save to
 - Try other log types, perhaps a db
-- Only show "RELEASED" for shift/caps, no need for normals keys
+- Only show "RELEASED" for shift/caps, no need for normal keys
 - Continue to improve formatting
 - Perhaps confirm install for evtest if not found
 - Fully silent version, dumping outputs to null
