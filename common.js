@@ -8,7 +8,7 @@ const headerHTML = `
 const footerHTML = `
     <footer>
         <div class="footer">
-            <span><a href="mailto:ft2fxeeq@4wrd.cc"><img src="/assets/email.png" alt=""></a></span>
+            <span><a href="mailto:ft2fxeeq@4wrd.cc"><img src="/assets/third-party/email.png" alt=""></a></span>
             <span>|</span>
             <details>
                 <summary>GPLv3 / CC BY-NC 4.0</summary>
