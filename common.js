@@ -23,7 +23,7 @@ const footerHTML = `
 function injectHeaderFooter() {
     const mainElement = document.querySelector('body') || document.body;
     mainElement.insertAdjacentHTML('beforebegin', headerHTML);
-    
+
     document.body.insertAdjacentHTML('beforeend', footerHTML);
 }
 
