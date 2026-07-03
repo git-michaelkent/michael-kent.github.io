@@ -13,9 +13,12 @@ const footerHTML = `
             <details>
                 <summary>GPLv3 / CC BY-NC 4.0</summary>
                 The website's software is released under the GNU GPLv3. 
-                Any company logos/icons are owned by their respective corporations.
-                Unless otherwise stated, all text, images, audio, video, logos, and other 
-                creative content on this site are licensed under CC BY-NC 4.0
+                All text, images, audio, video, logos, and other 
+                creative content that I (Michael Kent) have generated 
+                are licensed under CC BY-NC 4.0. 
+                Any third party content is attributed when required,
+                and is for educational, non-commercial use only.
+                Any company logos are owned by their respective corporations.
             </details>
             <span>|</span>
             <details>
