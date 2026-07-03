@@ -16,7 +16,7 @@ const footerHTML = `
                 All text, images, audio, video, logos, and other 
                 creative content that I (Michael Kent) have generated 
                 are licensed under CC BY-NC 4.0. 
-                Any third party content is attributed when required,
+                Any third party content is attributed as required,
                 and is for educational, non-commercial use only.
                 Any company logos are owned by their respective corporations.
             </details>
